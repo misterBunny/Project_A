@@ -1,0 +1,72 @@
+@font-face {
+  font-family: 'oswald';
+  src: url('../assets/HelveticaNeueLTCom-Lt.ttf');
+}
+
+
+.google-button {
+  /* background-color: white !important;
+  color: blue !important; */
+  border-radius: 100px !important;
+  font-size: 12px !important;
+  padding: 0px 50px !important;
+  /* width: 100% !important; */
+
+}
+
+.supermain {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+}
+
+.main {
+  height: 95vh;
+  font-family: 'oswald';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 0, 0);
+
+}
+
+.main-signup {
+  display: flex;
+  width: 45%;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid black; */
+
+}
+
+.sidebar-signup {
+  color: white;
+  font-size: 14px;
+  background: rgb(18,15,93);
+  background: radial-gradient(circle, rgba(18,15,93,1) 31%, rgba(15,45,93,1) 100%);
+  /* background-color: #120f5d; */
+  width: 40%;
+  height: 480px;
+  border-radius: 10px 0px 0 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+
+}
+
+form {
+  width: 60%;
+  background-color: white;
+  height: 480px;
+  padding: 10px 50px;
+  border-radius: 0px 10px 10px 0px;
+}
+
+footer {
+  height: 5vh;
+  align-self: center;
+}
